@@ -222,7 +222,7 @@ def main():
         }
         </style>
         <div class="footer">
-            <p>For ideas or feedback, contact me at <a href="mailto:your-email@example.com">your-email@example.com</a> or connect with me on <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a>.</p>
+            <p>For ideas or feedback, contact me at <a href="mailto:mariolambertucci@gmail.com">mariolambertucci@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/mariolambertucci/" target="_blank">LinkedIn</a>.</p>
         </div>
     """, unsafe_allow_html=True)
 
