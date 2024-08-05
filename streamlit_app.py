@@ -83,7 +83,7 @@ domain_lists = {
     "rtl.fr", "lci.fr", "doctissimo.fr", "marmiton.org", "tripadvisor.fr", "leboncoin.fr",
     "allocine.fr", "sfr.fr", "pagesjaunes.fr", "francetvinfo.fr", "francetelevisions.fr",
     "tf1.fr", "larepubliquedespyrenees.fr", "lindependant.fr", "ladepeche.fr", "lamontagne.fr",
-    "estrepublicain.fr", "dna.fr", "lexpress.fr", "mediapart.fr", "lesechos.fr",
+    "estrepublicain.fr", "dna.fr", "lexpress.fr", "mediapart.fr", "lesechos.fr", 
     "nouvelobs.com", "liberation.fr", "humanite.fr", "cnews.fr", "meteo.fr", "societe.com",
     "lequipe.fr", "franceinfo.fr", "lepoint.fr", "challenges.fr", "rue89.fr", "marianne.net",
     "midilibre.fr", "leberry.fr", "lamontagne.fr"
@@ -136,7 +136,7 @@ def main():
     if submit_button:
         if domains_input:
             domains = [domain.strip() for domain in domains_input.split("\n") if domain.strip()]
-           
+            
             queue = Queue()
             disallowed_domains = []
             allowed_domains = []
@@ -206,7 +206,7 @@ def main():
             ax1.axis('equal')
             st.pyplot(fig1)
 
-    # Footer with contact information and GitHub link
+    # Footer with contact information
     st.markdown("""
         <style>
         .footer {
@@ -222,7 +222,7 @@ def main():
         }
         </style>
         <div class="footer">
-            <p>For ideas or feedback, contact me at <a href="mailto:mariolambertucci@gmail.com">mariolambertucci@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/mariolambertucci/" target="_blank">LinkedIn</a>. Visit the <a href="https://github.com/mariolambe/ai-bot-robots-txt-checker" target="_blank">GitHub repository</a>.</p>
+            <p>For ideas or feedback, contact me at <a href="mailto:your-email@example.com">your-email@example.com</a> or connect with me on <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a>.</p>
         </div>
     """, unsafe_allow_html=True)
 
