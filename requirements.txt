@@ -1,0 +1,7 @@
+beautifulsoup4>=4.9.3
+pyperclip
+lxml
+streamlit
+requests
+aiohttp
+matplotlib
