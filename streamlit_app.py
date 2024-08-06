@@ -5,6 +5,7 @@ from queue import Queue
 import pandas as pd
 import re
 import matplotlib.pyplot as plt
+from datetime import datetime
 
 # URL to fetch the list of AI bots
 BOTS_URL = "https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt"
@@ -119,7 +120,7 @@ def main():
 
     st.title("AI Bot Robots.txt Checker")
     st.write("This app checks if domains disallow a specific AI bot in their `robots.txt` file.")
-    st.write(f"This tool uses the list of AI bots from the [GitHub page]({GITHUB_URL}) to fetch the latest AI bots.")
+    st.write(f"This tool uses the list of AI bots from the [GitHub page]({GITHUB_URL}) to fetch the latest AI bots (last update {datetime.today().strftime('%d/%m/%Y')}).")
 
     ai_bots = fetch_ai_bots(BOTS_URL)
     selected_bot = st.selectbox("Select an AI bot to check:", ai_bots)
