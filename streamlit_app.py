@@ -56,7 +56,7 @@ domain_lists = {
     "zalando.it", "google.it", "amazon.it",
     "repubblica.it", "corriere.it", "poste.it", "gazzetta.it",
     "sky.it", "libero.it", "ilmeteo.it", "mediaset.it",
-    "ilfattoquotidiano.it", "fanpage.it", "ansa.it", "ilmessaggero.it",
+    "ilfattoquotidiano.it", "fanpage.it", "ansa.it",
     "rainews.it", "subito.it", "virgilio.it", "diretta.it",
     "lastampa.it", "raiplay.it", "aruba.it", "ebay.it",
     "tim.it", "giallozafferano.it", "ilgazzettino.it", "tripadvisor.it",
@@ -64,7 +64,7 @@ domain_lists = {
     "autoscout24.it", "trivago.it", "subito.it",
     "idealista.it", "kataweb.it", "ilmessaggero.it", "fanpage.it",
     "ilgiornale.it", "libero.it", "gazzetta.it",
-    "corriere.it", "repubblica.it", "ansa.it", "rainews.it",
+    "corriere.it", "repubblica.it", "ansa.it",
     "ilfattoquotidiano.it", "mediaset.it", "posta.it"
     ],
     "Germany": [
