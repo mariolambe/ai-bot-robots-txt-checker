@@ -63,9 +63,9 @@ domain_lists = {
     "ilgiornale.it", "immobiliare.it", "agenziaentrate.gov.it",
     "autoscout24.it", "trivago.it", "subito.it",
     "idealista.it", "kataweb.it", "ilmessaggero.it", "fanpage.it",
-    "ilmessaggero.it", "ilgiornale.it", "libero.it", "gazzetta.it",
+    "ilgiornale.it", "libero.it", "gazzetta.it",
     "corriere.it", "repubblica.it", "ansa.it", "rainews.it",
-    "ilfattoquotidiano.it", "mediaset.it", "posta.it", "ilmessaggero.it"
+    "ilfattoquotidiano.it", "mediaset.it", "posta.it"
     ],
     "Germany": [
     "google.de", "amazon.de", "immobilienscout24.de", "spiegel.de", "bild.de", "t-online.de",
